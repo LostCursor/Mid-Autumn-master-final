@@ -1,0 +1,104 @@
+body {
+  background-image: url("moon.jpg");
+
+
+}
+
+#Jokebox {
+  margin-top: 300px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 260px;
+  padding: 0px;
+}
+
+#setup {
+  color: white;
+  font-size: 50px;
+  font-family: 'Oswald';
+}
+
+#punchline {
+  color: white;
+  font-size: 20px;
+  font-family: 'Oswald';
+}
+
+.spanSub {
+  font-family: 'Oswald';
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.skeleton {
+  margin: inherit;
+  width:inherit;
+  overflow:hidden;
+  height: 0px;
+  transition: 0.5s;
+}
+
+.off {
+  height: 0px;
+  overflow: hidden;
+}
+
+.on {
+  height: 30px;
+}
+
+/*Buttons*/
+.Btn {
+  padding-top: 5px;
+  text-align: center;
+  padding: 10px 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+.Btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+}
+
+.purple {
+  background-color: #3F51B5;
+  box-shadow: 0px 3px 0px 0px #512DA8;
+}
+
+.purple:hover {
+  background-color: #B39DDB;
+}
+
+.red {
+  background-color: #F44336;
+  box-shadow: 0px 3px 0px 0px #C62828;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.red:hover {
+  background-color: #EF5350;
+}
+
+.green {
+  background-color: #4CAF50;
+  box-shadow: 0px 3px 0px 0px #1B5E20;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.green:hover {
+  background-color: #81C784;
+}
+
+
+table tr:last-child td{
+  font-size: 20px;
+  padding-top: 15px;
+}
+
